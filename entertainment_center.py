@@ -1,3 +1,8 @@
+'''The file is the main file which needs to be run to create the html page.
+This file allows adding movies and then calls the open_movies_page function
+to create html'''
+
+#Import relevant class and functions
 import media
 import fresh_tomatoes
 
@@ -12,6 +17,7 @@ avatar = media.Movie("Avatar","A marine on an alien planet",
 pk = media.Movie("PK", "Alien confused about god",
                  "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/PK_Theatrical_Poster.jpg/220px-PK_Theatrical_Poster.jpg",
                  "https://www.youtube.com/watch?v=82ZEDGPCkT8")
+
 #avatar.show_trailer()
 
 movies = [toystory, avatar, pk]
