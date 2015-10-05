@@ -1,12 +1,14 @@
 To run the from Terminal:
-  1. python entertainment_center.py
+    1. Navigate to the directory where the source code files are located. In MAC, you can use the finder to find the location of the directory and then do: cd <Path to Directory> 
+    2. python entertainment_center.py
 
 To run from IDLE:
-  1. Open entertainment_center.py
-  2. Run the module
+    1. Open entertainment_center.py
+    2. Run the module
   
 To add a movie:
-  1. Open entertainment_center.py
-  2. Add as per the example toystory = media.Movie("Title of the movie", "Storyline ",
-                       "URL for the movie poster",
-                       "Youtube trailer link url")
+    1. Open entertainment_center.py
+    2. Add as per the example toystory = media.Movie("Title of the movie", 
+                                                         "Storyline ",
+                                                         "URL for the movie poster",
+                                                         "Youtube trailer link url")
